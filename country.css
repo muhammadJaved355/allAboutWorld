@@ -1,0 +1,42 @@
+.btn{
+  box-shadow: 0px  4px 12px rgba(12, 7, 7, 0.15);
+padding: 5px 10px;
+border-radius: 4px;
+}
+
+.coundryDetails{
+  display: flex;
+  align-items: center;
+  margin-top: 64px;
+
+}
+.coundryDetails img{
+  width: 40%;
+  margin-right: 80px;
+
+}
+.detailText{
+  display: flex;
+  flex-direction: column;
+  gap: 8px ;
+  column-gap: 64px;
+  max-height: 160px;
+  flex-wrap: wrap;
+}
+.detailText p{
+  margin: 0;
+}
+@media(max-width:800px){
+  .coundryDetails{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  .coundryDetails img{
+    width: 60%;
+  }
+  .detailText{
+   max-height: unset;
+   
+  }
+}

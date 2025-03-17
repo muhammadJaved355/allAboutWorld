@@ -11,10 +11,10 @@ body{
 
   cursor: pointer;
 }
-.dark-mode {
+/* .dark-mode {
   background-color: #222;
   color: white;
-}
+} */
 
 /* end dark mode  */
 main{
